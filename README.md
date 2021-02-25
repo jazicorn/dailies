@@ -3,7 +3,6 @@ dailies
 > document your daily task
 
 
-
 README Checklist
 ---
 - [X] One-liner explaining the purpose of the repo
@@ -21,10 +20,9 @@ README Checklist
 Project Checklist
 ---
 - [ ] Customize README
-- [X] Initiate with [pipenv](https://pypi.org/project/pipenv/) or [venv](https://docs.python.org/3/library/venv.html)
-  - Make sure to use *pip3* instead of pip to install virtual enviroment or any modules 
+- [X] [venv](https://docs.python.org/3/library/venv.html)
 - [X] Initiate Backend | [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
-- [X] Initiate Frontend | [React](https://reactjs.org/docs/create-a-new-react-app.html)
+- [ ] Initiate Frontend | [React](https://reactjs.org/docs/create-a-new-react-app.html)
 - [ ] [Wireframe](https://lucid.app/lucidchart/f07614d6-25e2-4c01-95c0-78e22b780e3c/edit?beaconFlowId=23970D058C56ADC1&page=0_0#)  
   - [ ] Homepage/About 
   - [ ] Sign-up/Login
