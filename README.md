@@ -31,14 +31,14 @@ Project Checklist
   - [ ] CRUD To-Do-List
   - [ ] CRUD Sample
   - [ ] CRUD Multiple To-Do-List
-  - [ ] Automate Task
+  - [ ] User Automated Task
 - [X] [Color Story](https://coolors.co/0fff95-414141-e3a0c3-b8b8b8-cc953e)
   - #0FFF95 Medium Spring Green
   - #414141 Onyx
   - #E3A0C3 Kobi
   - #B8B8B8 Gray X 11 Gray
   - #CC953E Harvest Gold
-- [ ] User Can Automate Task | Python scripts?
+- [ ] User Automated Task | Python scripts?
 - [ ] Notifications | [Twilio](https://www.twilio.com/docs)
 
 Resources
