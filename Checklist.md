@@ -36,7 +36,7 @@ Project Checklist
     - [X] Install [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
         - python -m pip install Django
     - [X] Install Django Root Directory
-        - django-admin startproject backend .
+        - django-admin startproject backend (use "." at end if want root in same folder currently in)
     - [X] Freeze Project Dependencies
         - pip freeze > requirements.txt  
 - [ ] Models
