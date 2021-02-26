@@ -49,11 +49,10 @@ Project Checklist
       - Customer
     - [ ] *Settings*
       - [ ] Username
-        - [ ] Display
-        - [ ] Change Username
+        - [ ] Public //
+        - [ ] Change 
       - [ ] Email
-        - [ ] Display Email
-        - [ ] Change Email
+        - [ ] Change 
       - [ ] Password
         - [ ] Change Password
       - [ ] User Statistics
@@ -68,6 +67,7 @@ Project Checklist
     - [ ] *Date*
       - Created At
       - Updated At
+      - Deleted  (Add Later, not first interation)
     - [ ] *Roles* = Bool // Public=Share/Display; Private=Don't
       - [ ] Public | Private
     - [ ] *Title* = String // Title of List
@@ -76,15 +76,15 @@ Project Checklist
     - [ ] **Item**
       - [ ] *ID*
       - [ ] *Date*
-        - Created At
-        - Updated At
-      - [ ] Title* // Item in list
+      - [ ] *Title* // Item in list
       - [ ] *Complete* // Item Complete or Incomplete
       - [ ] *Tags* 
 - [ ] Pages
   - [ ] Homepage
     - [ ] Welcome Banner
     - [ ] About
+  - [ ] List
+    - [ ] CRUD
   - [ ] Signup/Login
     - [ ] Username
     - [ ] E-mail
