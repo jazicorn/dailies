@@ -40,28 +40,12 @@ Project Checklist
     - [X] Freeze Project Dependencies
         - pip freeze > requirements.txt  
 - [ ] Models
-  - [ ] **Sign-up**
-    - [ ] *Oath Google*
-    - [ ] *Classical*
-      - [ ] Username
-        - String
-      - [ ] E-mail
-        - String
-      - [ ] Password
-        - String
-      - [ ] Re-type Password
-        - String
-  - [ ] **Login**
-    - [ ] *Oath Google*
-    - [ ] *Classical*
-      - [ ] Username or E-mail
-        - String
-      - [ ] Password
-        - String
-      - [ ] Re-type Password
-        - String
   - [ ] **User**
-    - [ ] *Role* // Permissions
+    - [ ] *ID*
+    - [ ] *Date*
+      - Created At
+      - Updated At
+    - [ ] *Roles* // Permissions
       - Customer
     - [ ] *Settings*
       - [ ] Username
@@ -80,23 +64,32 @@ Project Checklist
     - [ ] *Dashboard*
       - [ ] *List(s)*
   - [ ] **List**
-    - [ ] *Role*
-      - [ ] *Public*
-        - Boolean
-    - [ ] *Title*
-      - String
-    - [ ] *Complete/Incomplete*
-      - Boolean
+    - [ ] *ID*
+    - [ ] *Date*
+      - Created At
+      - Updated At
+    - [ ] *Roles* = Bool // Public=Share/Display; Private=Don't
+      - [ ] Public | Private
+    - [ ] *Title* = String // Title of List
+    - [ ] *Complete* = Bool// List Complete or Incomplete
+    - [ ] *Tags* 
     - [ ] **Item**
-      - [ ] *Title*
-        - String
-      - [ ] *Complete/Incomplete*
-        - Boolean
+      - [ ] *ID*
+      - [ ] *Date*
+        - Created At
+        - Updated At
+      - [ ] Title* // Item in list
+      - [ ] *Complete* // Item Complete or Incomplete
+      - [ ] *Tags* 
 - [ ] Pages
   - [ ] Homepage
     - [ ] Welcome Banner
     - [ ] About
   - [ ] Signup/Login
+    - [ ] Username
+    - [ ] E-mail
+    - [ ] Password
+    - [ ] Re-type Password
   - [ ] User
     - [ ] Settings
     - [ ] Profile
@@ -105,3 +98,12 @@ Project Checklist
 - [ ] User Automated Task | Python scripts?
 - [ ] Notifications | [Twilio](https://www.twilio.com/docs)
 - [ ] Deploy | [Heroku](https://devcenter.heroku.com/articles/deploying-python)
+
+
+Notes
+---
+
+How do I use tags?
+How do I implement tags? [Tag Schema Design](https://charlesleifer.com/blog/a-tour-of-tagging-schemas-many-to-many-bitmaps-and-more/)
+Tags vs Catergories? Or both?
+
