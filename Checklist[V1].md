@@ -19,26 +19,22 @@ Project Checklist [V1]
   - #CC953E Harvest Gold
 - [ ] Setup Backend
     - [X] pip
-        - [X] Check if installed
-            - pip --version
-        - [X] Update if Needed
-            - pip install --upgrade pip(Making sure pip is updated)
+      - [X] Check if installed
+        - pip --version
+      - [X] Update if Needed
+        - pip install --upgrade pip(Making sure pip is updated)
     - [X] python
-        - [X] Check if python installed
-            - python3 --version
-        - [X] Check python paths
-            - [ ] type -a python3
-                - If no user/bin/python3  type | enter in commandline:
-                    - #!/usr/bin/env python3 
-    - [X] Create Virtual Enviroment | [venv](https://docs.python.org/3/library/venv.html)
-        - python3 -m venv venv
+      - [X] Check if python installed
+        - python --version
+    - [X] Create Virtual Enviroment | [venv](https://python-guide-kr.readthedocs.io/ko/latest/dev/virtualenvs.html)
+      - *Tip* use virtualenvwrapper and add PATH to .bashrc
+      - [X] virtualenv venv
+      - (To activate virtual enviroment)
         - source venv/bin/activate
-        - (Upgrade pip in virtual enviroment)
-            - pip3 install --upgrade pip
-        - (Check what's installed)
-            - pip freeze
+      - (Upgrade pip in virtual enviroment)
+        - pip install --upgrade pip
     - [X] Install [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
-        - python3 -m pip install Django
+        - python -m pip install Django
     - [X] Install Django Root Directory
         - django-admin startproject backend
     - [ ] Freeze Project Dependencies
@@ -48,15 +44,22 @@ Project Checklist [V1]
     - [ ] *Oath Google*
     - [ ] *Classical*
       - [ ] Username
+        - String
       - [ ] E-mail
+        - String
       - [ ] Password
+        - String
       - [ ] Re-type Password
+        - String
   - [ ] **Login**
     - [ ] *Oath Google*
     - [ ] *Classical*
       - [ ] Username or E-mail
+        - String
       - [ ] Password
+        - String
       - [ ] Re-type Password
+        - String
   - [ ] **User**
     - [ ] *Role* // Permissions
       - Customer
