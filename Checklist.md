@@ -1,4 +1,4 @@
-Project Checklist [V1]
+Project Checklist
 ---
 
 [Tutorial](https://dev.to/mdrhmn/deploying-react-django-app-using-heroku-2gfa) Used For Reference
@@ -28,7 +28,7 @@ Project Checklist [V1]
         - python --version
     - [X] Create Virtual Enviroment | [venv](https://python-guide-kr.readthedocs.io/ko/latest/dev/virtualenvs.html)
       - *Tip* use virtualenvwrapper and add PATH to .bashrc
-      - [X] virtualenv venv
+      - virtualenv venv
       - (To activate virtual enviroment)
         - source venv/bin/activate
       - (Upgrade pip in virtual enviroment)
@@ -37,7 +37,7 @@ Project Checklist [V1]
         - python -m pip install Django
     - [X] Install Django Root Directory
         - django-admin startproject backend
-    - [ ] Freeze Project Dependencies
+    - [X] Freeze Project Dependencies
         - pip freeze > requirements.txt  
 - [ ] Models
   - [ ] **Sign-up**
