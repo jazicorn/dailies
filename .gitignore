@@ -252,4 +252,4 @@ pip-selfcheck.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/react,django,python,visualstudiocode,dotenv,virtualenv
+# End of https://www.toptal.com/developers/gitignore/api/react,django,python,visualstudiocode,dotenv,virtualenv.env
