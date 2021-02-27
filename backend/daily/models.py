@@ -14,9 +14,6 @@ class Daily(models.Model):
     completed = models.BooleanField(default=False)
     # slug = models.SlugField(unique=True, max_length=255)
     
-    # class Meta:
-    #    db_table = "dailies"
-    
     # list dailies by date created
     class Meta:
         ordering = ['created', 'modified']
@@ -25,7 +22,7 @@ class Daily(models.Model):
     # def get_absolute_url(self):
     #    return reverse('daily_detail_view', args=[self.slug])
 
-    # save when updated titel of list
+    # save when updated tite of list
     # def save(self, *args, **kwargs):
     #    if not self.slug:
     #        self.slug = slugify(self.title)
