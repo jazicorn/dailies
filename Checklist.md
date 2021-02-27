@@ -39,6 +39,13 @@ Project Checklist
         - django-admin startproject backend (use "." at end if want root in same folder currently in)
     - [X] Freeze Project Dependencies
         - pip freeze > requirements.txt  
+- [ ] Database
+  - if using Postgres need psycopg2
+  - if for some reason it doesnt work
+    - python -m pip install psycopg2-binary 
+  - python manage.py makemigrations
+  - python manage.py migrate
+  - python manage.py runserver
 - [ ] Models
   - [ ] **User**
     - [ ] *ID*
