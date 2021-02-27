@@ -31,8 +31,7 @@ class Daily(models.Model):
     #        self.slug = slugify(self.title)
     #    super(Post, self).save(*args, **kwargs)
 
-    # renames the instance of the model
-    # with daily list name?
+
     def __str__(self): 
         return self.title
 
