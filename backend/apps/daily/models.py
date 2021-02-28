@@ -6,7 +6,7 @@ from django.db import models
 # To-do List
 class Daily(models.Model):
     id = models.BigAutoField(primary_key=True)
-    created = models.DateTimeField(auto_now_add=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True, null=True)
     modified = models.DateTimeField(auto_now=True)
     # created_by = models.ForeignKey(Profile, on_delete=models.CASCADE)
     title = models.CharField(max_length=120)
@@ -16,7 +16,7 @@ class Daily(models.Model):
     
     # list dailies by date created
     class Meta:
-        ordering = ['created', 'modified']
+        ordering = ['created_at', 'modified']
 
     # get url for list
     # def get_absolute_url(self):

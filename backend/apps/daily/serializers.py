@@ -1,7 +1,20 @@
 from rest_framework import serializers
-from .models import Daily
+from apps.daily.models import Daily
 
 class DailySerializer(serializers.ModelSerializer):
     class Meta:
         model = Daily
-        fields = ('id', 'title', 'description', 'completed')
+        read_only_fields = (
+            'id',
+            'created_at',
+            'modified'
+
+        )
+        fields = (
+            'id',
+            'created_at',
+            'modified', 
+            'title', 
+            'description', 
+            'completed'
+        )
