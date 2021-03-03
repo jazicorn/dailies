@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from apps.daily import views
+from apps.accounts.urls import accounts_urlpatterns
 
 router = routers.DefaultRouter()
 router.register(r'daily', views.DailyView, 'daily')
@@ -25,3 +26,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
 ]
+
+urlpatterns += accounts_urlpatterns # add URLs for authentication
