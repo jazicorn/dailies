@@ -1,7 +1,7 @@
 Project Checklist
 ---
 
-[Tutorial](https://dev.to/mdrhmn/deploying-react-django-app-using-heroku-2gfa) Used For Reference
+[Tutorial](https://saasitive.com/tutorial/crud-django-rest-framework-react/) Used For Reference
 
 - [ ] Customize README
 - [ ] [Wireframe](https://lucid.app/lucidchart/f07614d6-25e2-4c01-95c0-78e22b780e3c/edit?beaconFlowId=23970D058C56ADC1&page=0_0#)  

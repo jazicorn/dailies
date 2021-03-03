@@ -26,7 +26,9 @@ Resources
      - Initiating
        - [How to use venv](https://sourabhbajaj.com/mac-setup/Python/virtualenv.html)
 ### Django
-  - [Slugify](https://docs.djangoproject.com/en/3.1/ref/utils/#module-django.utils.text)
+  - [Slugify](https://docs.djangoproject.com/en/dev/ref/models/fields/#slugfield)
+  - [Unique Identifiers](https://docs.djangoproject.com/en/dev/ref/models/fields/#uuidfield)
+  - [E-mail Field](https://docs.djangoproject.com/en/dev/ref/models/fields/#emailfield)
 ### Javascript
 ### React
   - Babel

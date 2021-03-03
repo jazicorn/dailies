@@ -18,21 +18,5 @@ class Daily(models.Model):
     class Meta:
         ordering = ['created_at', 'modified']
 
-    # get url for list
-    # def get_absolute_url(self):
-    #    return reverse('daily_detail_view', args=[self.slug])
-
-    # save when updated tite of list
-    # def save(self, *args, **kwargs):
-    #    if not self.slug:
-    #        self.slug = slugify(self.title)
-    #    super(Post, self).save(*args, **kwargs)
-
-
     def __str__(self): 
         return self.title
-
-# User Profile
-# class Profile(models.Model):
-#    id = models.BigAutoField(primary_key=True)
-    
